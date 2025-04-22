@@ -22,7 +22,13 @@
 [링크연결](http://naver.com)
 ---
 
-<p align="center">가운데정렬</p>
-<img src="https://img.freepik.com/free-psd/close-up-delicious-apple_23-2151868338.jpg" width="120" height="100">
+<p align="center">가운데정렬
+<img src="https://img.freepik.com/free-psd/close-up-delicious-apple_23-2151868338.jpg" width="120" height="auto">
+</p>
+
+이모지 작성법
+윈도우버튼 + 마침표 (.) 또는 윈도우 + 세미클론 (;)
+🔗📂📌😃🤞✔
+
 
 
