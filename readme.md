@@ -22,7 +22,7 @@
 [링크연결](http://naver.com)
 ---
 
-
+<p align="center">가운데정렬</p>
 
 
 
