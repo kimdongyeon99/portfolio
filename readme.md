@@ -23,6 +23,6 @@
 ---
 
 <p align="center">가운데정렬</p>
-
+<img src="https://img.freepik.com/free-psd/close-up-delicious-apple_23-2151868338.jpg" width="120" height="100">
 
 
