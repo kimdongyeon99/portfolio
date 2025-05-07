@@ -8,54 +8,56 @@
 
 ---
 
- ##  *<p align="center">Portfolio</p>*
+ ##  *Portfolio*
 
-<p align="center">[📂 전체 포트폴리오 보기 (dothome)](http://kimdongyeon.dothome.co.kr/)</p>
+[📂 전체 포트폴리오 보기 (dothome)](http://kimdongyeon.dothome.co.kr/)
 
-
----
-
-## <p align="center">🛠️ 진행한 프로젝트</p>
-
-### <p align="center">1. 📌 **한국동물구조관리협회**</p>
-<p align="center">> 공공기관리뉴얼웹사이트</p>
-
-<p align="center">- 사용 기술: HTML, CSS, JavaScript</p>
-<p align="center">- 주요 기능: 예약시스템 작성 ( mainpage )</p>
-<p align="center">- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/study310/project001/index_my.html)</p>
-<p align="center">- GitHubCODE: [🔗 바로가기]()</p>
 
 ---
 
-### <p align="center">2. 📌 **실바니안 패밀리**</p>
-<p align="center">> 제품중심신규웹사이트</p>
+## *Project*
 
-<p align="center">- 사용 기술: HTML, CSS, JavaScript</p>
-<p align="center">- 주요 기능: 장바구니기능, 네이버API활용로그인 ( mainpage  + subpage2)</p>
-<p align="center">- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/study310/project002/index_001.html)</p>
-<p align="center">- GitHubCODE: [🔗 바로가기]()</p>
+### 1. 📌 **한국동물구조관리협회**
+> 공공기관리뉴얼웹사이트
+
+- 사용 기술: HTML, CSS, JavaScript
+- 주요 기능: 예약시스템 작성 ( mainpage )
+- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/study310/project001/index_my.html)
+- GitHubCODE: [🔗 바로가기]()
 
 ---
 
-### <p align="center">3. 📌 **인사이드 아웃**</p>
-<p align="center">> 인물형팬페이지</p>
+### 2. 📌 **실바니안 패밀리**
+> 제품중심신규웹사이트
 
-<p align="center">- 사용 기술: HTML, CSS, JavaScript</p>
+- 사용 기술: HTML, CSS, JavaScript
+- 주요 기능: 장바구니기능, 네이버API활용로그인 ( mainpage  + subpage2)
+- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/study310/project002/index_001.html)
+- GitHubCODE: [🔗 바로가기]()
+
+---
+
+### 3. 📌 **인사이드 아웃**
+> 인물형팬페이지
+
+- 사용 기술: HTML, CSS, JavaScript
 - 특징: 부드러운 스크롤 , ( mainpage  + subpage4)
-<p align="center">- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/study310/project003/index_my.html)</p>
-<p align="center">- GitHubCODE: [🔗 바로가기]()</p>
+- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/study310/project003/index_my.html)
+- GitHubCODE: [🔗 바로가기]()
 
 ---
 
-## <p align="center">👩‍💻 About Me</p>
+## 👩‍💻 About Me</p>
 
-<p align="center">- 🔭 현재 웹디자인& 프론트엔드 공부 중!</p>
-<p align="center">- 🌱 UIUX 기획과 Html,Css,JavaScript 에 집중하고 있어요.</p>
-<p align="center">- 📫 연락: ehddus0820@gmail.com</p>
+- 🔭 현재 웹디자인& 프론트엔드 공부 중!
+- 🌱 UIUX 기획과 Html,Css,JavaScript 에 집중하고 있어요.
+- 📫 연락: ehddus0820@gmail.com
 
 ---
 
-## <p align="center">🧰 기술 스택</p>
+## 🧰 기술 스택
+
+
 
 
 
