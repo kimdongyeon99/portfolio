@@ -23,7 +23,7 @@
 - 사용 기술: HTML, CSS, JavaScript
 - 주요 기능: 예약시스템 작성 ( mainpage )
 - GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/portfolio/project001/index_my.html)
-- GitHubCODE: [🔗 바로가기]()
+- GitHubCODE: [🔗 바로가기](https://github.com/kimdongyeon99/portfolio/blob/main/project001/index_my.html)
 
 ---
 
