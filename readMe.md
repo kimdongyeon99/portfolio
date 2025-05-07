@@ -63,4 +63,4 @@
 
 ---
 
-<p align="center">> 포트폴리오를 더 보고 싶다면 👉 [yourname.dothome.co.kr]() 방문해주세요!</p>
+> 포트폴리오를 더 보고 싶다면 👉 [Portfolio](http://kimdongyeon.dothome.co.kr/) 방문해주세요!
