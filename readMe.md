@@ -17,7 +17,7 @@
 
 ## *Project*
 
-### 1. 📌 **한국동물구조관리협회**
+### 1. 🐾 **한국동물구조관리협회**
 > 공공기관리뉴얼웹사이트 <br>
 <br>
 
@@ -31,7 +31,7 @@
 
 ---
 
-### 2. 📌 **실바니안 패밀리**
+### 2. 🐰 **실바니안 패밀리**
 > 제품중심신규웹사이트 <br>
 <br>
 
@@ -45,7 +45,7 @@
 
 ---
 
-### 3. 📌 **인사이드 아웃**
+### 3. 💭 **인사이드 아웃**
 > 인물형팬페이지  <br>
 <br>
 
@@ -60,25 +60,30 @@
 ---
 
 ## ✋ About Me
-
-- 🔭 현재 웹디자인& 프론트엔드 공부 중!
-- 🌱 UIUX 기획과 Html, CSS, JavaScript 에 집중하고 있어요.
-- 📫 연락: ehddus0820@gmail.com
-
----
-
-## 🧰 기술 스택
-
-🎨 <img src="img/figma.png"; width="30" height="auto" alt="피그마 아이콘"> <img src="img/photoshop.png"; width="30" height="auto" alt="포토샵 아이콘">  
-
-
+📝 현재 웹디자인 & 프론트엔드 NCS과정 공부 중!  
+ 
+👀 UI/UX 기획과 Html, CSS, JavaScript 에 집중하고 있어요.  
+ 
+✉ 연락: ehddus0820@gmail.com
 
 ---
 
-> 포트폴리오를 더 보고 싶다면 👉 [Portfolio](http://kimdongyeon.dothome.co.kr/) 방문해주세요!
+## 🧰 기술 스택  <br>
+<br>
+🎨 Figma, Photoshop  <br>
+<br>
+🛠 HTML, CSS, Javascript  <br>
+<br>
+
+
+
+---
+
+> 포트폴리오를 자세히 보고 싶다면 👉 [Portfolio](http://kimdongyeon.dothome.co.kr/) 방문해주세요!
 
 ---  
+## 🎞프레젠테이션  
 
 
 
-[프레젠테이션](https://www.figma.com/proto/sDfW4dX26ubgyuLy0bBn7L/Untitled?node-id=1-12&t=JCy3PwRUmUgezRMs-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
+[Presentaition](https://www.figma.com/proto/sDfW4dX26ubgyuLy0bBn7L/Untitled?node-id=1-12&t=JCy3PwRUmUgezRMs-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
