@@ -18,32 +18,44 @@
 ## *Project*
 
 ### 1. 📌 **한국동물구조관리협회**
-> 공공기관리뉴얼웹사이트
+> 공공기관리뉴얼웹사이트 <br>
+<br>
 
-- 사용 기술: HTML, CSS, JavaScript
-- 주요 기능: 예약시스템 작성 (Mainpage)
-- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/portfolio/project001/index_my.html)
-- GitHubCODE: [🔗 바로가기](https://github.com/kimdongyeon99/portfolio/blob/main/project001/index_my.html)
+🛠 사용 기술: HTML, CSS, JavaScript  
+
+🖱 주요 기능: 예약시스템 작성 (Mainpage)  
+
+🖥 [GitHub](https://kimdongyeon99.github.io/portfolio/project001/index_my.html)  
+
+📂 [GitHubCODE](https://github.com/kimdongyeon99/portfolio/blob/main/project001/index_my.html)
 
 ---
 
 ### 2. 📌 **실바니안 패밀리**
-> 제품중심신규웹사이트
+> 제품중심신규웹사이트 <br>
+<br>
 
-- 사용 기술: HTML, CSS, JavaScript
-- 주요 기능: 장바구니기능, 네이버API활용로그인 (Mainpage + Subpage2)
-- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/portfolio/project002/index_my.html)
-- GitHubCODE: [🔗 바로가기](https://github.com/kimdongyeon99/portfolio/blob/main/project002/index_my.html)
+🛠 사용 기술: HTML, CSS, JavaScript  
+
+🖱 주요 기능: 장바구니기능, 네이버API활용로그인 (Mainpage + Subpage2)  
+
+🖥 [GitHub](https://kimdongyeon99.github.io/portfolio/project002/index_my.html)  
+
+📂 [GitHubCODE](https://github.com/kimdongyeon99/portfolio/blob/main/project002/index_my.html)
 
 ---
 
 ### 3. 📌 **인사이드 아웃**
-> 인물형팬페이지
+> 인물형팬페이지  <br>
+<br>
 
-- 사용 기술: HTML, CSS, JavaScript
-- 특징: 단일페이지 , (Mainpage + Subpage4)
-- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/portfolio/project003/index_my.html)
-- GitHubCODE: [🔗 바로가기](https://github.com/kimdongyeon99/portfolio/blob/main/project003/index_my.html)
+🛠 사용 기술: HTML, CSS, JavaScript  
+
+🖱 특징: 단일페이지 , (Mainpage + Subpage4)  
+
+🖥 [GitHub](https://kimdongyeon99.github.io/portfolio/project003/index_my.html)  
+
+📂 [GitHubCODE](https://github.com/kimdongyeon99/portfolio/blob/main/project003/index_my.html)
 
 ---
 
@@ -57,7 +69,8 @@
 
 ## 🧰 기술 스택
 
-🎨 <img src="img/photoshop.png"; width="30" height="auto" alt="포토샵 아이콘">
+🎨 <img src="img/figma.png"; width="30" height="auto" alt="피그마 아이콘"> <img src="img/photoshop.png"; width="30" height="auto" alt="포토샵 아이콘">  
+
 
 
 ---
