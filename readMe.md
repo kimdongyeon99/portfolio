@@ -22,7 +22,7 @@
 
 - 사용 기술: HTML, CSS, JavaScript
 - 주요 기능: 예약시스템 작성 ( mainpage )
-- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/study310/project001/index_my.html)
+- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/portfolio/project001/index_my.html)
 - GitHubCODE: [🔗 바로가기]()
 
 ---
@@ -32,7 +32,7 @@
 
 - 사용 기술: HTML, CSS, JavaScript
 - 주요 기능: 장바구니기능, 네이버API활용로그인 ( mainpage  + subpage2)
-- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/study310/project002/index_001.html)
+- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/portfolio/project002/index_my.html)
 - GitHubCODE: [🔗 바로가기]()
 
 ---
@@ -42,7 +42,7 @@
 
 - 사용 기술: HTML, CSS, JavaScript
 - 특징: 부드러운 스크롤 , ( mainpage  + subpage4)
-- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/study310/project003/index_my.html)
+- GitHub: [🔗 바로가기](https://kimdongyeon99.github.io/portfolio/project003/index_my.html)
 - GitHubCODE: [🔗 바로가기]()
 
 ---
