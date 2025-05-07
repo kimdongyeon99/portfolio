@@ -1,16 +1,16 @@
 <p align="center">
-  <img src="img/profileimg.png; width="400" height="auto" alt="프로필 이미지">
+  <img src="img/profileimg.png"; width="600" height="auto" alt="프로필 이미지">
 </p>
 
-<h1 align="center">안녕하세요! 👋</h1>
-<p align="center">웹 프론트엔드 개발자를 꿈꾸는 ___입니다.  
+<h1 align="center">안녕하세요!</h1>
+<p align="center">웹 프론트엔드 개발자를 꿈꾸는 김동연입니다.  
 작은 UI에도 감동을 주는 개발자가 되고 싶어요.</p>
 
 ---
 
-## 🔗 포트폴리오 메인 링크
+## 🔗 Portfolio
 
-👉 [📂 포트폴리오 전체 보기 (dothome)](http://yuniyuni.dothome.co.kr/)
+👉 [📂 포트폴리오 전체 보기 (dothome)]()
 
 
 ---
