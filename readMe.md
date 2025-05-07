@@ -3,21 +3,21 @@
 </p>
 
 <h1 align="center">안녕하세요!</h1>
-<p align="center">웹 프론트엔드 개발자를 꿈꾸는 김동연입니다.  
-작은 UI에도 감동을 주는 개발자가 되고 싶어요.</p>
+<p align="center">웹 프론트엔드 개발자를 꿈꾸는 김동연입니다. <br>
+심플하지만 따뜻하게, 직관적이지만 감성적으로. 누구나 편히 사용할 수 있는 환경을 만드는 데 집중했습니다.</p>
 
 ---
 
 ## 🔗 Portfolio
 
-👉 [📂 포트폴리오 전체 보기 (dothome)]()
+[📂 전체 포트폴리오 보기 (dothome)](http://kimdongyeon.dothome.co.kr/)
 
 
 ---
 
 ## 🛠️ 진행한 프로젝트
 
-### 1. 📌 **프로젝트1**
+### 1. 📌 **한국동물구조관리협회**
 > 공공기관리뉴얼웹사이트
 
 - 사용 기술: HTML, CSS, JavaScript
@@ -27,7 +27,7 @@
 
 ---
 
-### 2. 📌 **프로젝트2**
+### 2. 📌 **실바니안 패밀리**
 > 제품중심신규웹사이트
 
 - 사용 기술: HTML, CSS, JavaScript
@@ -37,10 +37,10 @@
 
 ---
 
-### 3. 📌 **프로젝트3**
+### 3. 📌 **인사이드 아웃**
 > 인물형팬페이지
 
-- 사용 기술: HTML, CSS
+- 사용 기술: HTML, CSS, JavaScript
 - 특징: 부드러운 스크롤 , ( mainpage  + subpage4)
 - GitHub: [🔗 바로가기](https://github.com/username/miniprofile)
 - GitHubCODE: [🔗 바로가기](https://github.com/username/myblog)
