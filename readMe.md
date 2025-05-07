@@ -32,7 +32,7 @@
 ---
 
 ### 2. 🐰 **실바니안 패밀리**
-> 제품중심신규웹사이트 <br>
+> 제품중심리뉴얼웹사이트 <br>
 <br>
 
 🛠 사용 기술: HTML, CSS, JavaScript  
@@ -46,7 +46,7 @@
 ---
 
 ### 3. 💭 **인사이드 아웃**
-> 인물형팬페이지  <br>
+> 캐릭터형팬페이지  <br>
 <br>
 
 🛠 사용 기술: HTML, CSS, JavaScript  
@@ -75,15 +75,12 @@
 🛠 HTML, CSS, Javascript  <br>
 <br>
 
-
-
 ---
 
-> 포트폴리오를 자세히 보고 싶다면 👉 [Portfolio](http://kimdongyeon.dothome.co.kr/) 방문해주세요!
+> 🎬포트폴리오를 자세히 보고 싶다면 👉 [Portfolio](http://kimdongyeon.dothome.co.kr/) 에 방문해주세요!
 
 ---  
 ## 🎞프레젠테이션  
 
-
-
+이 프레젠테이션에는 간단한 프로필, 각 프로젝트별 디자인 소개, 간단한 기능 설명이 있습니다  
 [Presentaition](https://www.figma.com/proto/sDfW4dX26ubgyuLy0bBn7L/Untitled?node-id=1-12&t=JCy3PwRUmUgezRMs-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1)
