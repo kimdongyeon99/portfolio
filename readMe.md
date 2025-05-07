@@ -57,9 +57,7 @@
 
 ## 🧰 기술 스택
 
-🎨 <img src="img">
-
-
+🎨 <img src="img/photoshop.png"; width="30" height="auto" alt="포토샵 아이콘">
 
 
 ---
