@@ -10,7 +10,7 @@
 
  ## *Portfolio*
 
-[📂 전체 포트폴리오 보기 (dothome)](http://kimdongyeon.dothome.co.kr/)
+[📂 전체 포트폴리오 보기](http://kimdongyeon.dothome.co.kr/)
 
 
 ---
