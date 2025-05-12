@@ -1403,10 +1403,12 @@ body {font-family: "Orbit", serif;}
 
 .copyright .txt_box1 {font-size: 18px;
                         /* display: block; */
-                        padding-top: 100px;}
+                        padding-top: 80px;
+                        padding-left: 50px;}
 
 .copyright .txt_box2 {font-size: 18px;
-                        padding-top: 20px;}
+                        padding-top: 20px;
+                        padding-left: 50px;}
 
 .copyright img {position: absolute;
                 bottom: 20px;
