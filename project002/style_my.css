@@ -821,7 +821,8 @@ body {font-family: "Orbit", serif;}
 
 .imgBox .thumb ul {}
 
-.imgBox .thumb li {margin-bottom: 40px;}
+.imgBox .thumb li {margin-bottom: 40px;
+                cursor: pointer;}
 
 .imgBox .thumb img {width: 100%;}
 
