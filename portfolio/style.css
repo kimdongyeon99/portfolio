@@ -1,0 +1,1189 @@
+/* 언어설정 */
+@charset 'utf-8';
+
+/* 구글폰트 */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Gaegu&family=Gowun+Dodum&family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+/* 눈누폰트 */
+@font-face {
+    font-family: 'Ownglyph_StudyHard-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2411-3@1.0/Ownglyph_StudyHard-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@import url('https://fastly.jsdelivr.net/npm/galmuri@latest/dist/galmuri.css');
+
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 전체설정 */
+
+* {margin: 0;
+    padding: 0;}
+
+ul,ol {list-style: none;}
+
+a {text-decoration: none;
+    color: #000;}
+
+img {border: none;
+    vertical-align: bottom;}
+
+
+html, body {width: 100%;
+            height: 100%;
+            overflow: hidden;}
+      
+/* wrap설정 */
+#wrap {width: 100%;
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        perspective: 800px;}
+
+/* 메뉴 설정 */
+
+.gnb {width: 100%;
+        height: 100px;
+        display: flex;
+        background-color: #fff;
+        z-index: 1;
+        position: relative;}
+
+.logo {margin-left: 50px;
+        opacity: 0;
+        transition: all 1.8s;
+        cursor: pointer;}
+.logo img {width: 100px;
+            height: 100px;}
+.logo.on {opacity: 1;}
+
+nav {}
+
+nav ul {display: flex;
+        position: absolute;
+        right: 0;
+        margin-right: 200px;}
+
+nav li {font-family: "Bebas Neue", sans-serif;
+        font-size: 30px;
+        padding-right: 80px;
+        margin-top: 30px;
+        cursor: pointer;}
+
+
+nav li:nth-child(1) {transform: translateX(800%);
+                        transition: all 1.5s;}
+nav li:nth-child(1).on {transform: translateX(0);}
+
+nav li:nth-child(2) {transform: translateX(800%);
+                        transition: all 1.5s;}
+
+nav li:nth-child(2).on {transform: translateX(0);}
+
+nav li:nth-child(3) {transform: translateX(800%);
+                        transition: all 1.5s;}
+
+nav li:nth-child(3).on {transform: translateX(0);}
+
+nav li:nth-child(4) {transform: translateX(800%);
+                        transition: all 1.5s;}
+
+nav li:nth-child(4).on {transform: translateX(0);}
+
+
+nav li:nth-child(1):hover {color: #9460AD;
+                            transition: all 0.1s;}
+nav li:nth-child(2):hover {color: #CF8F9C;
+                            transition: all 0.1s;}                          
+nav li:nth-child(3):hover {color: #DBB986;
+                            transition: all 0.1s;}
+nav li:nth-child(4):hover {color: #1D5782;
+                            transition: all 0.1s;}
+
+
+nav li {position: relative;}
+  
+nav li::after {content: "";
+                position: absolute;
+                left: 50%;
+                bottom: -5px;
+                margin-left: -40px;
+                width: 0;
+                height: 2px;
+                transition: width 0.3s ease;
+                transform: translateX(-50%);}
+  
+nav li:hover::after {width: 100px;}
+
+  /* li별 밑줄 색상 지정 */
+nav li:nth-child(1):hover::after {background-color: #AB89BB;}
+  
+nav li:nth-child(2):hover::after {background-color: #CF8F9C;}
+  
+nav li:nth-child(3):hover::after {background-color: #E3C999;}
+  
+nav li:nth-child(4):hover::after {background-color: #34678C;}
+  
+
+/* 메인페이지 설정 */
+.section {width: 100%;
+        height: 100vh;}
+
+
+.section>.inner1.on {display: block;}
+/* .section>.inner2.on {display: block;}
+.section>.inner3.on {display: block;}
+.section>.inner4.on {display: block;}
+.section>.inner5.on {display: block;} */
+
+.section .inner1 {position: relative;
+                    display: block;}
+
+.inner1 .mainbg {position: fixed;
+                    top: 0;
+                    left: 0;
+                    width: 100%;    
+                    height: 100vh;
+                    overflow: hidden;}
+
+.mainbg video {width: 100%;
+                height: 100%;
+                object-fit: cover;}
+
+.mainbg .name {position: absolute;
+                top: 279px;
+                left: 412px;
+                transform: translateX(-300%);
+                transition: all 1.5s;}
+
+.mainbg .name.on {transform: translateX(0);}
+
+.mainbg .name img {}
+.mainbg .pf {}
+.mainbg .pf .port {position: absolute;
+                    top: 344px;
+                    left: 409px;
+                    transform: translateX(500%);
+                    transition: all 1.5s;}
+
+.mainbg .pf .port.on {transform: translateX(0);}
+
+.mainbg .pf .port img {}
+.mainbg .pf .folio {position: absolute;
+                    top: 344px;
+                    left: 50%;
+                    margin-left: -190px;
+                    transform: translateX(400%);
+                    transition: all 1.5s;}
+
+.mainbg .pf .folio.on {transform: translateX(0);}
+
+.mainbg .pf .folio img {}
+.mainbg .txt001 {position: absolute;
+                    top: 50%;
+                    left: 400px;
+                    margin-top: 70px;}
+
+.mainbg .txt001 .shortline1 {width: 0;
+                                height: 0;
+                                position: absolute;
+                                top: -8px;
+                                left: -8px;
+                                border-top: 2px #8C92AC solid;
+                                border-left: 2px #8C92AC solid;}
+
+.mainbg .txt001 .shortline1.on {width: 300px;
+                                height: 100px;
+                                transition: all 1.8s;}
+
+
+.mainbg .txt001 .box1 {background-color: rgba(255, 255, 255, 0.1);
+                        width: 0px;
+                        height: 0px;
+                        color: #fff;
+                    font-family: "galmuri11", sans-serif;
+                    font-size: 20px;
+                    padding-left: 15px;
+                    padding-right: 15px;
+                    padding-top: 60px;
+                    text-align: center;
+                    line-height: 3;
+                    opacity: 0;}
+
+.mainbg .txt001 .box1.on {width: 1107px;
+                            height: 180px;
+                            transition: all 1.8s;
+                            opacity: 1;}
+
+.mainbg .txt001 .text {}
+
+.mainbg .txt001 .shortline2 {width: 0px;
+                                height: 0px;
+                                position: absolute;
+                                bottom: -8px;
+                                right: -8px;
+                                border-bottom: 2px #8C92AC solid;
+                                border-right: 2px #8C92AC solid;}
+
+.mainbg .txt001 .shortline2.on {width: 300px;
+                                height: 100px;
+                                transition: all 1.8s;}
+
+.mainbg .left {position: absolute;
+                top: 100px;
+                left: 15px;
+                display: flex;
+                flex-direction: column;
+                animation: down 15s linear infinite;}
+
+
+.mainbg .right {position: absolute;
+                top: 100px;
+                right: 15px;
+                display: flex;
+                flex-direction: column;
+                animation: up 18s linear infinite;}
+
+.mainbg .right img {margin-bottom: 80px;}
+
+
+
+@keyframes down {
+
+    0% {transform: translateY(-50%);}
+
+    100% {transform: translateY(0);}
+
+    }
+
+
+
+@keyframes up {
+
+    0%   {transform: translateY(0);}
+
+    100% {transform: translateY(-50%);}
+
+  }
+
+
+
+  /* 프로필 설정 */
+.section .inner2 {display: none;}
+.section .inner2.on {width: 100%;
+                    height: 100vh;
+                    background-color: #F3F0F5;
+                    position: relative;
+                    display: block;}
+
+/* 이미지 설정 */
+.inner2 .bi {position: absolute;
+            top: -100px;
+            right: 0;
+            opacity: 0.2;}
+.inner2 .bi .img {}
+
+/* 배경 설정 */
+.inner2 .background {}
+
+/* 이너 프로필 */
+.background .profile {position: relative;
+                        width: 100%;
+                        height: 100vh;}
+
+.profile h2 {font-size: 80px;
+            position: absolute;
+            top: 20px;
+            left: 180px;
+            color: #796C99;}
+
+
+/* 이름 */
+.profile .intxt001 img {position: absolute;
+                top: 50%;
+                left: 180px;
+                /* margin-top: -310px; */
+                margin-top: -280px;
+                }
+
+.profile .intxt001 .n {position: absolute;
+                        top: 50%;
+                        left: 224px;
+                        margin-top: -275px;
+                        }
+
+.profile .intxt001 .n p {font-size: 30px;
+                        color: #31144F;
+                        position: absolute;
+                        font-family: "Gowun Dodum", sans-serif;}
+
+.profile .intxt001 .na {position: absolute;
+                        top: 50%;
+                        left: 380px;
+                        margin-top: -270px;
+                        }
+
+.profile .intxt001 .na p {font-size: 20px;
+                            font-family: "Gowun Dodum", sans-serif;}
+
+
+/* 나이 */
+.profile .intxt002 img {position: absolute;
+                            top: 50%;
+                            left: 180px;
+                            /* margin-top: -220px; */
+                            margin-top: -170px;
+                            }
+            
+.profile .intxt002 .a {position: absolute;
+                        top: 50%;
+                        left: 240px;
+                        /* margin-top: -215px; */
+                        margin-top: -165px;
+                        }
+            
+.profile .intxt002 .a p {font-size: 30px;
+                            color: #31144F;
+                            position: absolute;
+                            font-family: "Gowun Dodum", sans-serif;}
+
+.profile .intxt002 .ag {position: absolute;
+                        top: 50%;
+                        left: 380px;
+                        /* margin-top: -210px; */
+                        margin-top: -160px;
+                        }
+
+.profile .intxt002 .ag p {font-size: 20px;
+                            font-family: "Gowun Dodum", sans-serif;}
+
+
+/* 교육 */
+.profile .intxt003 img {position: absolute;
+                        top: 50%;
+                        left: 180px;
+                        /* margin-top: -130px; */
+                        margin-top: -60px;
+                        }
+                        
+.profile .intxt003 .e {position: absolute;
+                        top: 50%;
+                        left: 200px;
+                        /* margin-top: -125px; */
+                        margin-top: -55px;
+                        }
+                        
+.profile .intxt003 .e p {font-size: 30px;
+                            color: #31144F;
+                            position: absolute; 
+                            font-family: "Gowun Dodum", sans-serif;}
+                            
+.profile .intxt003 .edu {position: absolute;
+                            top: 50%;
+                            left: 380px;
+                            /* margin-top: -125px; */
+                            margin-top: -75px;
+                            }
+
+.profile .intxt003 .edu p {font-size: 20px;
+                            line-height: 2.3;
+                            font-family: "Gowun Dodum", sans-serif;}
+
+
+/* 키워드 */
+.profile .intxt004 img {position: absolute;
+                            top: 50%;
+                            left: 180px;
+                            margin-top: 60px;
+                            }
+                                    
+.profile .intxt004 .k {position: absolute;
+                        top: 50%;
+                        left: 205px;
+                        margin-top: 65px;}
+                                    
+.profile .intxt004 .k p {font-size: 30px;
+                            color: #31144F;
+                            position: absolute;
+                            font-family: "Gowun Dodum", sans-serif;}
+
+.profile .intxt004 .key {font-size: 20px;
+                            font-family: "Gowun Dodum", sans-serif;}
+
+.profile .intxt004 .key .key1 {}
+
+.profile .intxt004 .key .key1 p:nth-child(1) {position: absolute;
+                                                top: 50%;
+                                                left: 380px;
+                                                margin-top: 75px;}
+
+.profile .intxt004 .key .key1 p:nth-child(2) {position: absolute;
+                                                top: 50%;
+                                                left: 50%;
+                                                margin-top: 75px;
+                                                margin-left: -430px;}
+
+.profile .intxt004 .key .key1 p:nth-child(3) {position: absolute;
+                                                top: 50%;
+                                                left: 50%;
+                                                margin-top: 75px;
+                                                margin-left: -275px;}
+
+.profile .intxt004 .key .key2 {}
+
+.profile .intxt004 .key .key2 p:nth-child(1) {position: absolute;
+                                                top: 50%;
+                                                left: 380px;
+                                                margin-top: 130px;}
+
+.profile .intxt004 .key .key2 p:nth-child(2) {position: absolute;
+                                                top: 50%;
+                                                left: 50%;
+                                                margin-top: 130px;
+                                                margin-left: -430px;}
+
+.profile .intxt004 .key .key2 p:nth-child(3) {position: absolute;
+                                                top: 50%;
+                                                left: 50%;
+                                                margin-top: 130px;
+                                                margin-left: -275px;}
+
+/* 스킬 */
+
+
+.profile .intxt005>img {position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        margin-top: -280px;
+                        margin-left: 40px;}
+            
+.profile .intxt005 .s {position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        margin-top: -275px;
+                        margin-left: 97px;}
+            
+.profile .intxt005 .s p {font-size: 30px;
+                        color: #31144F;
+                        position: absolute;
+                        font-family: "Gowun Dodum", sans-serif;}
+
+.profile .intxt005 .ski {font-size: 20px;
+                        font-family: "Gowun Dodum", sans-serif;
+                        font-weight: bold;}
+
+.profile .intxt005 .ski .ski1 {}
+
+
+/* 피그마 설정 */
+.ski .ski1 .i1 {position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -180px;
+                margin-left: -25px;
+                z-index: 5;
+                width: 109px;
+                height: 109px;
+                overflow: hidden;
+                border: #F24E1E 8px solid;
+                border-radius: 80px;
+                cursor: pointer;}
+
+.ski .ski1 .inbox1 {width: 250px;
+                    height: 250px;
+                    background-color: #FFAB93;
+                    border-radius: 80px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: 25px;
+                    margin-left: -120px;
+                    transition: all 1.2s;
+                    animation: ib1 10s infinite;
+                    z-index: 1;}
+
+.ski .ski1 .i1 img {position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-left: -13.5px;
+                    margin-top: -19.5px;
+                    z-index: 5;}
+
+.ski .ski1 .inbox1:hover {position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        margin-top: -25px;
+                        margin-left: -120px;
+                        transform: translateY(10px)}
+                    
+
+
+.ski .ski1 .t1 {display: block;
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -40px;
+                margin-left: 18px;}
+
+
+/* 포토샵 설정 */
+.ski .ski1 .i2 {position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -180px;
+                margin-left: 150px;
+                z-index: 5;
+                width: 109px;
+                height: 109px;
+                overflow: hidden;
+                border: #31A8FF 8px solid;
+                border-radius: 80px;
+                cursor: pointer;}
+
+.ski .ski1 .inbox2 {width: 250px;
+                    height: 250px;
+                    background-color: #94D2FF;
+                    border-radius: 80px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: 25px;
+                    margin-left: -120px;
+                    transition: all 1.2s;
+                    animation: ib1 10s infinite;
+                    z-index: 2;}
+
+.ski .ski1 .inbox2:hover {position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            margin-top: -20px;
+                            margin-left: -120px;
+                            transform: translateY(10px);}
+
+
+.ski .ski1 .i2 img {position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-left: -14px;
+                    margin-top: -14px;
+                    z-index: 5;}
+
+.ski .ski1 .t2 {position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: -40px;
+                margin-left: 195px;}
+
+
+.profile .intxt005 .ski .ski2 {}
+
+
+
+/* html 설정 */
+.ski .ski2 .i3 {position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: 20px;
+                margin-left: -120px;
+                z-index: 5;
+                width: 109px;
+                height: 109px;
+                overflow: hidden;
+                border: #E44D26 8px solid;
+                border-radius: 80px;
+                cursor: pointer;}
+
+.ski .ski2 .inbox3 {width: 250px;
+                    height: 250px;
+                    background-color: #F48F64;
+                    border-radius: 80px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: 25px;
+                    margin-left: -130px;
+                    transition: all 1.2s;
+                    animation: ib1 10s infinite;
+                    z-index: 2;}
+
+.ski .ski2 .inbox3:hover {position: absolute;
+                        top: 50%;
+                        left: 50%;
+                        margin-top: -20px;
+                        margin-left: -130px;
+                        transform: translateY(10px);}
+
+.ski .ski2 .i3 img {position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-left: -14px;
+                    margin-top: -19.5px;
+                    z-index: 5;}
+
+
+.ski .ski2 .t3 {position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: 160px;
+                margin-left: -73px;}
+
+
+/* css 설정 */
+.ski .ski2 .i4 {position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: 20px;
+                margin-left: 60px;
+                z-index: 5;
+                width: 109px;
+                height: 109px;
+                overflow: hidden;
+                border: #1572B6 8px solid;
+                border-radius: 80px;
+                cursor: pointer;}
+
+.ski .ski2 .inbox4 {width: 250px;
+                    height: 250px;
+                    background-color: #80B2D8;
+                    border-radius: 80px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: 25px;
+                    margin-left: -130px;
+                    transition: all 1.2s;
+                    animation: ib1 10s infinite;
+                    z-index: 2;}
+
+.ski .ski2 .inbox4:hover {position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            margin-top: -20px;
+                            margin-left: -130px;
+                            transform: translateY(10px);}
+
+.ski .ski2 .i4 img {position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-left: -14px;
+                    margin-top: -18.5px;
+                    z-index: 5;}
+
+.ski .ski2 .t4 {position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: 160px;
+                margin-left: 110px;}
+
+/* javascript 설정 */
+.ski .ski2 .i5 {position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: 20px;
+                margin-left: 240px;
+                z-index: 5;
+                width: 109px;
+                height: 109px;
+                overflow: hidden;
+                border: #F7DF1E 8px solid;
+                border-radius: 80px;
+                cursor: pointer;}
+
+.ski .ski2 .inbox5 {width: 250px;
+                    height: 250px;
+                    background-color: #FDEF82;
+                    border-radius: 80px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-top: 25px;
+                    margin-left: -130px;
+                    transition: all 1.2s;
+                    animation: ib1 10s infinite;
+                    z-index: 2;}
+
+.ski .ski2 .inbox5:hover {position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            margin-top: -5px;
+                            margin-left: -130px;
+                            transform: translateY(10px);}
+
+.ski .ski2 .i5 img {position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    margin-left: -14px;
+                    margin-top: -14px;
+                    z-index: 5;}
+
+
+.ski .ski2 .t5 {position: absolute;
+                top: 50%;
+                left: 50%;
+                margin-top: 160px;
+                margin-left: 287px;}
+
+
+@keyframes ib1 {
+
+    0% {transform: rotate(0deg);}
+                                    
+    50% {transform: rotate(180deg);}
+                                    
+    100% {transform: rotate(360deg);}
+}
+
+
+/* 프로젝트 과정 */
+
+.profile .intxt006 {}
+
+.profile .intxt006 img {position: absolute;
+                        top: 50%;
+                        right: 120px;
+                        margin-top: -280px;}
+            
+.profile .intxt006 .c {}
+            
+.profile .intxt006 .c p {position: absolute;
+                        top: 50%;
+                        right: 110px;
+                        margin-top: -275px;
+                        width: 350px;
+                        font-size: 30px;
+                        color: #31144F;
+                        position: absolute;
+                        font-family: "Gowun Dodum", sans-serif;}
+
+.profile .intxt006 .line span {display: block;
+                                position: absolute;
+                                top: 50%;
+                                right: 0;
+                                margin-top: 140px;
+                                margin-right: 330px;}
+
+.profile .intxt006 .project {}
+.profile .intxt006 .project .project001 {}
+.profile .intxt006 .project .project001 .p1_01 {position: absolute;
+                                                top: 50%;
+                                                right: 0;
+                                                margin-top: -160px;
+                                                margin-right: 350px;
+                                                font-family: "Gowun Dodum", sans-serif;
+                                                font-weight: bold;}
+
+.profile .intxt006 .project .project001 .p1_02 {position: absolute;
+                                                top: 50%;
+                                                right: 0;
+                                                margin-top: -135px;
+                                                margin-right: 350px;
+                                                font-family: "Gowun Dodum", sans-serif;
+                                                font-weight: bold;}
+
+.profile .intxt006 .project .project001 .p1_03 {position: absolute;
+                                                top: 50%;
+                                                right: 0;
+                                                margin-top: -150px;
+                                                margin-right: 150px;
+                                                font-family: "Gowun Dodum", sans-serif;
+                                                font-weight: bold;}
+
+.profile .intxt006 .project .project002 {}
+.profile .intxt006 .project .project002 .p2_01 {position: absolute;
+                                                top: 50%;
+                                                right: 0;
+                                                margin-top: -30px;
+                                                margin-right: 350px;
+                                                font-family: "Gowun Dodum", sans-serif;
+                                                font-weight: bold;}
+
+.profile .intxt006 .project .project002 .p2_02 {position: absolute;
+                                                top: 50%;
+                                                right: 0;
+                                                margin-top: -5px;
+                                                margin-right: 350px;
+                                                font-family: "Gowun Dodum", sans-serif;
+                                                font-weight: bold;}
+
+.profile .intxt006 .project .project002 .p2_03 {position: absolute;
+                                                top: 50%;
+                                                right: 0;
+                                                margin-top: -20px;
+                                                margin-right: 250px;
+                                                font-family: "Gowun Dodum", sans-serif;
+                                                font-weight: bold;}
+
+.profile .intxt006 .project .project003 {}
+.profile .intxt006 .project .project003 .p3_01 {position: absolute;
+                                                top: 50%;
+                                                right: 0;
+                                                margin-top: 100px;
+                                                margin-right: 350px;
+                                                font-family: "Gowun Dodum", sans-serif;
+                                                font-weight: bold;}
+
+.profile .intxt006 .project .project003 .p3_02 {position: absolute;
+                                                top: 50%;
+                                                right: 0;
+                                                margin-top: 125px;
+                                                margin-right: 350px;
+                                                font-family: "Gowun Dodum", sans-serif;
+                                                font-weight: bold;}
+
+.profile .intxt006 .project .project003 .p3_03 {position: absolute;
+                                                top: 50%;
+                                                right: 0;
+                                                margin-top: 110px;
+                                                margin-right: 250px;
+                                                font-family: "Gowun Dodum", sans-serif;
+                                                font-weight: bold;}
+
+/* shopsite 설정 */
+
+
+.section .inner3 {display: none;}
+.section .inner3.on {width: 100%;
+                    height: 100vh;
+                    background-color: #D8A7B1;
+                    position: relative;
+                    display: block;}
+
+/* 목업 설정 */
+.inner3 .mockup001 {position: absolute;
+                    top: 100px;
+                    right: 180px;}
+
+.inner3 .mockup001 img {}
+
+
+/* 텍스트박스 설정 */
+.inner3 .txtbox001 {width: 751px;
+                    height: 716px;
+                    background-color: #CF8F9C;
+                    border-radius: 5px;
+                    position: absolute;
+                    top: 50px;
+                    left: 150px;
+                    opacity: 0;}
+
+.inner3 .txtbox001 p {}
+
+.inner3 .txtbox001>p:nth-child(1) {font-size: 40px;
+                                    color: #f0f0f0;
+                                    font-family: "Gowun Dodum", sans-serif;
+                                    font-weight: 500;
+                                    text-align: center;
+                                    margin-top: 90px;}
+
+.inner3 .txtbox001>p:nth-child(2) {font-size: 65px;
+                                    font-family: "Bebas Neue", sans-serif;
+                                    color: #f0f0f0;
+                                    text-align: center;
+                                    margin-top: 30px;}
+
+.inner3 .txtbox001>p:nth-child(3) {font-size: 28px;
+                                    color: #f0f0f0;
+                                    font-family: "Gowun Dodum", sans-serif;
+                                    text-align: center;
+                                    margin-top: 40px;}
+
+.inner3 .txtbox001>p:nth-child(4) {font-size: 25px;
+                                    color: #f0f0f0;
+                                    font-family: "Gowun Dodum", sans-serif;
+                                    text-align: center;
+                                    margin-top: 45px;}
+
+
+/* 버튼 설정 */
+.inner3 .btn01 {display: flex;
+                justify-content: center;}
+
+.inner3 .btn01 p {font-family: 'S-CoreDream-3Light';
+                font-size: 20px;
+                color: #f0f0f0;
+                margin: 100px 30px;
+                border: #f0f0f0 2px solid;
+                border-radius: 5px;
+                padding: 10px 20px;}
+
+.inner3 .btn01 .visit a {color: #fff;}
+
+.inner3 .btn01 .visit:hover {opacity: 0.6;
+                                cursor: pointer;}
+
+.inner3 .btn01 .view:hover {opacity: 0.6;
+                            cursor: pointer;}
+
+/* 텍스트박스 인터렉션 */
+.txtbox001.on {transition: all 1.5s;
+                opacity: 1;
+                animation: txtbox 1s;}
+
+@keyframes txtbox {
+
+    0% {transform: scale(0);}
+
+    100% {transform: scale(1);}
+
+}
+
+.viewclick {}
+
+.Overlay {display: none; /* 처음엔 숨김 */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4); /* 회색 반투명 */
+            z-index: 9999;}
+
+.view001 {display: none;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 20px;
+            margin-left: 150px;
+            overflow-y: scroll;
+            overflow-x: hidden;
+            background-color: #FFFCFC;
+            width: 1600px;
+            height: 780px;
+            z-index: 100000;}
+
+.view001 img {width: 1600px;
+            height: auto;
+            display: block;}
+
+.viewclick .delete {position: fixed;
+                    top: 150px;
+                    right: 230px;
+                    z-index: 100001;
+                    cursor: pointer;
+                    display: none;}
+
+.viewclick .delete.on {display: block;}
+
+.viewclick .delete p {font-family: "Gaegu", sans-serif;
+                    font-size: 25px;
+                    font-weight: bold;
+                    color: #292929;}
+
+.viewclick .Overlay.on {display: block;}
+.viewclick .view001.on {display: block;}
+
+
+
+
+/* caresite 설정 */
+
+
+.section .inner4 {display: none;}
+.section .inner4.on {width: 100%;
+                    height: 100vh;
+                    background-color: #E3C999;
+                    position: relative;
+                    display: block;}
+
+/* 목업 설정 */
+.inner4 .mockup002 {position: absolute;
+                    top: 180px;
+                    left: 180px;}
+
+.inner4 .mockup002 img {}
+
+
+/* 텍스트박스 설정 */
+.inner4 .txtbox002 {width: 751px;
+                    height: 716px;
+                    background-color: #DBB986;
+                    border-radius: 5px;
+                    position: absolute;
+                    top: 50px;
+                    right: 150px;
+                    opacity: 0;}
+
+.inner4 .txtbox002 p {}
+
+.inner4 .txtbox002>p:nth-child(1) {font-size: 40px;
+                                    color: #f0f0f0;
+                                    font-family: "Gowun Dodum", sans-serif;
+                                    font-weight: 500;
+                                    text-align: center;
+                                    margin-top: 90px;}
+
+.inner4 .txtbox002>p:nth-child(2) {font-size: 65px;
+                                    font-family: "Bebas Neue", sans-serif;
+                                    color: #f0f0f0;
+                                    text-align: center;
+                                    margin-top: 30px;}
+
+.inner4 .txtbox002>p:nth-child(3) {font-size: 28px;
+                                    color: #f0f0f0;
+                                    font-family: "Gowun Dodum", sans-serif;
+                                    text-align: center;
+                                    margin-top: 40px;}
+
+.inner4 .txtbox002>p:nth-child(4) {font-size: 25px;
+                                    color: #f0f0f0;
+                                    font-family: "Gowun Dodum", sans-serif;
+                                    text-align: center;
+                                    margin-top: 45px;}
+
+
+/* 버튼 설정 */
+.inner4 .btn01 {display: flex;
+                justify-content: center;}
+
+.inner4 .btn01 p {font-family: 'S-CoreDream-3Light';
+                font-size: 20px;
+                color: #f0f0f0;
+                margin: 100px 30px;
+                border: #f0f0f0 2px solid;
+                border-radius: 5px;
+                padding: 10px 20px;}
+
+.inner4 .btn01 .visit a {color: #fff;}
+
+.inner4 .btn01 .visit:hover {opacity: 0.6;
+                                cursor: pointer;}
+
+.inner4 .btn01 .view:hover {opacity: 0.6;
+                            cursor: pointer;}
+
+/* 텍스트박스 인터렉션 */
+.txtbox002.on {transition: all 1.5s;
+                opacity: 1;
+                animation: txtbox1 1s;}
+
+@keyframes txtbox1 {
+
+    0% {transform: scale(0);}
+
+    100% {transform: scale(1);}
+
+}
+
+
+/* fanpage 설정 */
+
+
+.section .inner5 {display: none;}
+.section .inner5.on {width: 100%;
+                    height: 100vh;
+                    background-color: #34678C;
+                    position: relative;
+                    display: block;}
+
+/* 목업 설정 */
+.inner5 .mockup003 {position: absolute;
+                    top: 150px;
+                    right: 0;}
+
+.inner5 .mockup003 img {}
+
+
+/* 텍스트박스 설정 */
+.inner5 .txtbox003 {width: 751px;
+                    height: 716px;
+                    background-color: #1D5782;
+                    border-radius: 5px;
+                    position: absolute;
+                    top: 50px;
+                    left: 150px;
+                    opacity: 0;}
+
+.inner5 .txtbox003 p {}
+
+.inner5 .txtbox003>p:nth-child(1) {font-size: 40px;
+                                    color: #f0f0f0;
+                                    font-family: "Gowun Dodum", sans-serif;
+                                    font-weight: 500;
+                                    text-align: center;
+                                    margin-top: 90px;}
+
+.inner5 .txtbox003>p:nth-child(2) {font-size: 65px;
+                                    font-family: "Bebas Neue", sans-serif;
+                                    color: #f0f0f0;
+                                    text-align: center;
+                                    margin-top: 30px;}
+
+.inner5 .txtbox003>p:nth-child(3) {font-size: 28px;
+                                    color: #f0f0f0;
+                                    font-family: "Gowun Dodum", sans-serif;
+                                    text-align: center;
+                                    margin-top: 40px;}
+
+.inner5 .txtbox003>p:nth-child(4) {font-size: 25px;
+                                    color: #f0f0f0;
+                                    font-family: "Gowun Dodum", sans-serif;
+                                    text-align: center;
+                                    margin-top: 45px;}
+
+
+/* 버튼 설정 */
+.inner5 .btn01 {display: flex;
+                justify-content: center;}
+
+.inner5 .btn01 p {font-family: 'S-CoreDream-3Light';
+                font-size: 20px;
+                color: #f0f0f0;
+                margin: 100px 30px;
+                border: #f0f0f0 2px solid;
+                border-radius: 5px;
+                padding: 10px 20px;}
+
+.inner5 .btn01 .visit a {color: #fff;}
+
+.inner5 .btn01 .visit:hover {opacity: 0.6;
+                                cursor: pointer;}
+
+.inner5 .btn01 .view:hover {opacity: 0.6;
+                            cursor: pointer;}
+
+/* 텍스트박스 인터렉션 */
+.txtbox003.on {transition: all 1.5s;
+                opacity: 1;
+                animation: txtbox2 1s;}
+
+@keyframes txtbox2 {
+
+    0% {transform: scale(0);}
+
+    100% {transform: scale(1);}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
