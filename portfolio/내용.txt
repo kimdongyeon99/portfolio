@@ -1,0 +1,99 @@
+shopsite
+
+실바니안 패밀리 글씨 / 설명: 구글폰트 - gowundodum 폰트사이즈 : 40(글씨) / 30(설명)
+Web Redesign / SHOP SITE 눈누폰트 - Bebas Neue 폰트사이즈 : 65
+WEB SITE VISIT / CONCEPT VIEW 눈누폰트 - S-Core Dream 폰트사이즈 : 25
+박스 : #CF8F9C 
+크기 : 가로-751 세로-716
+gnb 글씨 / 선 : #CF8F9C(글씨) / #D8A7B1(선)
+보더 - 5
+
+- Sylvanian Family -
+Web Redesign / SHOP SITE
+“감성을 담은 작은 세상”
+심플하고 직관적인 쇼핑몰 리뉴얼
+사용자 경험을 개선하는 데 집중했습니다.
+WEB SITE VISIT
+CONCEPT VIEW
+
+caresite
+
+한국동물구조관리협회 글씨 / 설명: 구글폰트 - gowundodum 폰트사이즈 : 40(글씨) / 30(설명)
+Web Redesign / CARESITE 눈누폰트 - Bebas Neue 폰트사이즈 : 65
+WEB SITE VISIT / CONCEPT VIEW 눈누폰트 - S-Core Dream 폰트사이즈 : 25
+박스 : #DBB986 
+크기 : 가로-751 세로-716
+gnb 글씨 / 선 : #DBB986(글씨) / #E3C999(선)
+보더 - 5
+
+- 한국동물구조관리협회 -
+Web Redesign / CARE SITE
+“유기동물을 위한 따뜻한 연결의 시작”
+입양 절차를 쉽고 친절하게,
+누구나 이해할 수 있도록 재구성했습니다.
+WEB SITE VISIT
+CONCEPT VIEW
+
+fanpage
+
+인사이드아웃 글씨 / 설명: 구글폰트 - gowundodum 폰트사이즈 : 40(글씨) / 30(설명)
+Web Redesign / FAN PAGE 눈누폰트 - Bebas Neue 폰트사이즈 : 65
+WEB SITE VISIT / CONCEPT VIEW 눈누폰트 - S-Core Dream 폰트사이즈 : 25
+박스 : #1D5782
+크기 : 가로-751 세로-716
+gnb 글씨 / 선 : #1D5782(글씨) / #34678C(선)
+보더 - 5
+
+- INSIDEOUT -
+New Design / FAN PAGE
+“감정의 이해를 돕는 감성 플랫폼”
+복잡한 감정과 성장 과정을 친근하게 풀어낸
+콘텐츠 중심의 인터페이스로 구성했습니다.
+WEB SITE VISIT
+CONCEPT VIEW
+
+
+
+
+김  동  연
+1999. 09
+대전과학기술대학교 사회복지과 졸업
+스마트웹 콘텐츠개발 ncs과정 수료 (5월 수료 예정)
+디테일러
+조용열정
+INFP
+감성덕후
+동물사랑
+귀여움집착
+
+
+80% 피그마
+75% 포토샵
+85% html
+80% css
+50% js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
