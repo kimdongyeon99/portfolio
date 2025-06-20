@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>국립암센터</title>
+    <!-- 외부 스타일시트 연결 -->
+     <link rel="stylesheet" href="style.css">
+
+    <!-- 폰트어썸CDN -->
+    <script src="https://kit.fontawesome.com/0efb1606b8.js" crossorigin="anonymous"></script>
+
+
+    <!-- 제이쿼리cdn -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+
+    <!-- 외부스크립트 연결 -->
+    <script src="js.js"></script>
+
+</head>
+<body>
+
+    <div id="wrap">
+        <div class="main">
+            <div>
+                <img src="img/mainbg.png" alt="">
+                <div class="logo">
+                    국립암센터
+                </div>
+                <div class="nav">
+                    <ul>
+                        <li><a href="">진료과 / 센터</a></li>
+                        <li><a href="">진료예약</a></li>
+                        <li><a href="">건강검진</a></li>
+                        <li><a href="">암 정보</a></li>
+                        <li><a href="">고객센터</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="center">
+            <div class="title1">진료과/센터</div>
+            <div class="cen_inner">
+                <div class="inter">
+                    <div class="inter_inner">
+                        <img src="img/internal.png" alt="">
+                        <p>내과계 진료과</p>
+                    </div>
+
+                    <div class="inter_txt">
+                        <p class="bigtxt">혈액종양내과</p>
+                        <p class="smalltxt">항암치료, 면역치료 등 내과적인 치료 전반을 담당</p>
+                        <p class="bigtxt">소화기내과</p>
+                        <p class="smalltxt">위암, 대장암, 간암 등 소화기 암의 진단과  
+                            <br>내시경 치료</p>
+                        <p class="bigtxt">호흡기내과</p>
+                        <p class="smalltxt">폐암, 흉부 종양 진단 및 치료</p>
+                    </div>
+                    
+                </div>
+                <div class="surg">
+                    <div class="surg_inner">
+                        <img src="img/surgery.png" alt="">
+                        <p>외과계 진료과</p>
+                    </div>
+
+                    <div class="surg_txt">
+                        <p class="bigtxt">외과 (일반 / 종양외과)</p>
+                        <p class="smalltxt">위암, 대장암, 유방암 등 종양 수술 및 복강경 수술 전문</p>
+                        <p class="bigtxt">흉부외과</p>
+                        <p class="smalltxt">폐암, 식도암 등 흉부 관련 암 수술</p>
+                        <p class="bigtxt">정형외과 / 신경외과</p>
+                        <p class="smalltxt">뼈나 척수 관련 종양 수술</p>
+                    </div>
+                   
+                </div>
+                <div class="etc">
+                    <div class="etc_inner">
+                        <img src="img/etc.png" alt="">
+                        <p>기타 진료과</p>
+                    </div>
+
+                    <div class="etc_txt">
+                        <p class="bigtxt">산부인과</p>
+                        <p class="smalltxt">자궁경부암, 난소암 등 여성암 치료</p>
+                        <p class="bigtxt">비뇨의학과</p>
+                        <p class="smalltxt">전립선암, 방광암 등 비뇨기계 암 치료</p>
+                        <p class="bigtxt">이비인후과 / 두경부외과</p>
+                        <p class="smalltxt">갑상선암, 구강암 등 머리 · 목 부위 암 치료</p>
+                    </div>
+
+                </div>
+                <div class="spe">
+                    <div class="spe_inner">
+                        <img src="img/special.png" alt="">
+                        <p>지원 및 특수 진료과</p>
+                    </div>
+
+                    <div class="spe_txt">
+                        <p class="bigtxt">영상의학과</p>
+                        <p class="smalltxt">암 진단을 위한 CT, MRI, PET 등 영상 검사</p>
+                        <p class="bigtxt">방사선종양학과</p>
+                        <p class="smalltxt">방사선 치료 계획 및 시술</p>
+                        <p class="bigtxt">병리과 / 핵의학과 / 마취통증의학과</p>
+                        <p class="smalltxt">진단, 통증관리, 수술 지원 전반</p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <div class="reserv">
+            <div class="title2">진료예약</div>
+            <div class="res_inner">
+                <div class="cal">
+                    <div class=""></div>
+                </div>
+
+                <form action="">
+                    <div class="name">
+                        <p>예약자 성함</p>
+                        <input type="text" size="14" placeholder="성함을 작성해주세요">
+                    </div>
+                    <div class="phone">
+                        <p>연락처</p>
+                        <input type="text" size="14" placeholder="000-0000-0000">
+                    </div>
+                    <div class="medi1">
+                        <label for="">진료과</label>
+                    </div>
+                    <select name="" id="cate">
+                        <option value="">구분</option>
+                        <option value="">내과계 진료과</option>
+                        <option value="">와과계 진료과</option>
+                        <option value="">기타 진료과</option>
+                        <option value="">지원 및 특수 진료과</option>
+                    </select>
+                    <select name="" id="subcate1" class="hide">
+                        <option value="">세부 진료과</option>
+                        <option value="">혈액종양내과</option>
+                        <option value="">소화기내과</option>
+                        <option value="">호흡기내과</option>
+                    </select>
+                    <select name="" id="subcate2" class="hide">
+                        <option value="">세부 진료과</option>
+                        <option value="">외과 (일반 / 종양외과)</option>
+                        <option value="">흉부외과</option>
+                        <option value="">정형외과</option>
+                        <option value="">신경외과</option>
+                    </select>
+                    <select name="" id="subcate3" class="hide">
+                        <option value="">세부 진료과</option>
+                        <option value="">신부인과</option>
+                        <option value="">비뇨의학과</option>
+                        <option value="">이비인후과</option>
+                        <option value="">두경부외과</option>
+                    </select>
+                    <select name="" id="subcate4" class="hide">
+                        <option value="">세부 진료과</option>
+                        <option value="">영상의학과</option>
+                        <option value="">방사선종양학과</option>
+                        <option value="">병리과</option>
+                        <option value="">핵의학과</option>
+                        <option value="">마취통증의학과</option>
+                    </select>
+                    
+                    <div class="phone">
+                        <p>연락처</p>
+                        <input type="text" size="14" placeholder="000-0000-0000">
+                    </div>
+                </form>
+
+            </div>
+        </div>
+        <div class="banner"></div>
+        <div class="exam"></div>
+        <div class="inform"></div>
+        <div class="sup"></div>
+        <div class="arra"></div>
+        <div class="footer"></div>
+    </div>
+
+    
+</body>
+</html>

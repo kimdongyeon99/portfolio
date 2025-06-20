@@ -1,0 +1,233 @@
+/* 언어설정 */
+@charset 'utf-8';
+
+/* 구글폰트 연결 */
+
+
+/* 전체설정 */
+* {margin: 0;
+    padding: 0;}
+ul,ol {list-style: none;}
+a {text-decoration: none;
+    color: black;}
+img {border: none;
+    vertical-align: bottom;}
+
+body {overflow-x: hidden;}
+
+
+/* 내용 작성 */
+/* 랜딩페이지 */
+
+    #wrap {}
+
+    .main {}
+
+    .main img {}
+
+    .main .logo {width: 150px;
+                position: absolute;
+                top: 40px;
+                left: 70px;
+                color: white;
+                font-size: 30px;}
+
+    .main .nav {width: 1000px;
+                position: absolute;
+                top: 0;
+                right: 0;}
+
+    .main .nav ul {display: flex;
+                    position: absolute;
+                    margin-left: 250px;}
+
+    .main .nav ul li {}
+
+    .main .nav ul li a {display: block;
+                        padding-top: 45px;
+                        text-align: center;
+                        font-size: 18px;
+                        color: #fff;
+                        padding-left: 50px;}
+
+
+/* 진료과 센터 설정 */
+
+.center {position: relative;
+        height: 910px;}
+
+.center .title1 {font-size: 25px;
+                font-weight: bold;
+                position: absolute;
+                top: 20px;
+                left: 50px;}
+
+.center .cen_inner {}
+
+/* 내과계 설정 */
+
+.cen_inner .inter {}
+
+.cen_inner .inter .inter_inner {width: 314px;
+                                height: 276px;
+                                background-color: #FFE9E9;
+                                border-radius: 20px;
+                                position: absolute;
+                                top: 50%;
+                                margin-top: -300px;
+                                left: 200px;}
+
+.cen_inner .inter .inter_inner img {margin-top: 50px;
+                                    margin-left: 79.5px;}
+
+.cen_inner .inter .inter_inner p {text-align: center;
+                                    font-size: 20px;
+                                    font-weight: bold;
+                                    padding-top: 30px;}
+
+.cen_inner .inter .inter_txt {display: none;
+                                width: 433px;
+                                height: 271px;
+                                background-color: #FFF4F4;
+                                position: absolute;
+                                top: 50%;
+                                left: 140px;
+                                border-radius: 20px;}
+
+.cen_inner .inter .inter_txt .bigtxt {font-size: 17px;
+                                        text-align: center;
+                                        font-weight: bold;
+                                        padding-top: 15px;}
+
+.cen_inner .inter .inter_txt .smalltxt {text-align: center;
+                                        font-size: 17px;
+                                        padding-top: 10px;}
+
+/* 외과계 설정 */
+
+.cen_inner .surg {}
+
+.cen_inner .surg .surg_inner {width: 314px;
+                                height: 276px;
+                                background-color: #BFFFDC;
+                                border-radius: 20px;
+                                position: absolute;
+                                top: 50%;
+                                margin-top: -300px;
+                                left: 50%;
+                                margin-left: -355px;}
+
+.cen_inner .surg .surg_inner img {margin-top: 50px;
+                                    margin-left: 92.31px;}
+
+.cen_inner .surg .surg_inner p {text-align: center;
+                                    font-size: 20px;
+                                    font-weight: bold;
+                                    padding-top: 30px;}
+
+.cen_inner .surg .surg_txt {display: none;
+                                width: 433px;
+                                height: 271px;
+                                background-color: #E0FFEE;
+                                position: absolute;
+                                top: 50%;
+                                right: 50%;
+                                margin-right: -20px;
+                                border-radius: 20px;}
+
+.cen_inner .surg .surg_txt .bigtxt {font-size: 17px;
+                                        text-align: center;
+                                        font-weight: bold;
+                                        padding-top: 22px;}
+
+.cen_inner .surg .surg_txt .smalltxt {text-align: center;
+                                        font-size: 17px;
+                                        padding-top: 10px;}
+
+                            
+/* 기타 진료과 설정 */
+
+.cen_inner .etc {}
+
+.cen_inner .etc .etc_inner {width: 314px;
+                                height: 276px;
+                                background-color: #FFF1DA;
+                                border-radius: 20px;
+                                position: absolute;
+                                top: 50%;
+                                margin-top: -300px;
+                                right: 50%;
+                                margin-right: -355px;}
+
+.cen_inner .etc .etc_inner img {margin-top: 50px;
+                                    margin-left: 110px;}
+
+.cen_inner .etc .etc_inner p {text-align: center;
+                                    font-size: 20px;
+                                    font-weight: bold;
+                                    padding-top: 30px;}
+
+.cen_inner .etc .etc_txt {display: none;
+                                width: 433px;
+                                height: 271px;
+                                background-color: #FFF8ED;
+                                position: absolute;
+                                top: 50%;
+                                left: 50%;
+                                margin-left: -20px;
+                                border-radius: 20px;}
+
+.cen_inner .etc .etc_txt .bigtxt {font-size: 17px;
+                                        text-align: center;
+                                        font-weight: bold;
+                                        padding-top: 22px;}
+
+.cen_inner .etc .etc_txt .smalltxt {text-align: center;
+                                        font-size: 17px;
+                                        padding-top: 10px;}
+
+/* 지원 / 특수진료 설정 */
+
+.cen_inner .spe {}
+
+.cen_inner .spe .spe_inner {width: 314px;
+                                height: 276px;
+                                background-color: #D0DDFF;
+                                border-radius: 20px;
+                                position: absolute;
+                                top: 50%;
+                                margin-top: -300px;
+                                right: 200px;}
+
+.cen_inner .spe .spe_inner img {margin-top: 50px;
+                                    margin-left: 93.8px;}
+
+.cen_inner .spe .spe_inner p {text-align: center;
+                                    font-size: 20px;
+                                    font-weight: bold;
+                                    padding-top: 30px;}
+
+.cen_inner .spe .spe_txt {display: block;
+                                width: 433px;
+                                height: 271px;
+                                background-color: #E8EEFF;
+                                position: absolute;
+                                top: 50%;
+                                right: 140px;
+                                border-radius: 20px;}
+
+.cen_inner .spe .spe_txt .bigtxt {font-size: 17px;
+                                        text-align: center;
+                                        font-weight: bold;
+                                        padding-top: 22px;}
+
+.cen_inner .spe .spe_txt .smalltxt {text-align: center;
+                                        font-size: 17px;
+                                        padding-top: 10px;}
+
+
+.hide {
+  display: none;
+}
+
+
